@@ -1,0 +1,542 @@
+﻿Appointment date,Appointment duration (actual),Appointment duration (booked),Appointment flags,Appointment location,Appointment status,Appointment time,Clinician,Rota start date,Rota type,Time between booking and appointment,Patient ID,Patient Count
+04-01-26,,8m,Telephone Appointment,Stanhope Mews West,Did Not Attend,10:00 - 10:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,2d 18m,49836420,1
+04-01-26,,8m,Telephone Appointment,Stanhope Mews West,Did Not Attend,11:00 - 11:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,1wks 1h,49832367,1
+04-01-26,,8m,Telephone Appointment,Stanhope Mews West,Did Not Attend,12:00 - 12:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,1wks 1h,49832367,1
+04-01-26,,10m,,Stanhope Mews West,Did Not Attend,14:00 - 14:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,2d 3h,34014358,1
+04-01-26,,10m,Has QOF Alerts,Stanhope Mews West,Did Not Attend,08:00 - 08:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,6d 20h,49830699,1
+04-01-26,,10m,"Has QOF Alerts, Online Services Appointment",Stanhope Mews West,Did Not Attend,08:00 - 08:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,16h 56m,56937796,1
+04-01-26,,15m,Appointment Confirmed,Stanhope Mews West,Did Not Attend,11:00 - 11:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,3wks 6d,64700711,1
+04-01-26,,15m,Appointment Rebooked,Stanhope Mews West,Did Not Attend,14:00 - 14:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,3wks 5d,29528861,1
+04-01-26,,15m,"Appointment Rebooked, Has QOF Alerts",Stanhope Mews West,Did Not Attend,09:00 - 09:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,6d 20h,49830699,1
+04-01-26,0m,5m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,2h 50m,54137898,1
+04-01-26,0m,5m,Notes Not Required,Stanhope Mews West,Finished,16:00 - 16:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse,1wks 6h,49854460,1
+04-01-26,0m,5m,Notes Not Required,Stanhope Mews West,Finished,17:00 - 17:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,4h 11m,19720440,1
+04-01-26,0m,10m,,Stanhope Mews West,Finished,09:00 - 09:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,3wks 1d,49830223,1
+04-01-26,0m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,20h 25m,49834255,1
+04-01-26,0m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 17m,49838370,1
+04-01-26,1m,5m,Notes Not Required,Stanhope Mews West,Finished,16:00 - 16:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,2h 35m,46509308,1
+04-01-26,1m,5m,Notes Not Required,Stanhope Mews West,Finished,17:00 - 17:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,7m,49849977,1
+04-01-26,1m,5m,Telephone Appointment,Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,2h 49m,55924343,1
+04-01-26,1m,5m,Telephone Appointment,Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,2h 53m,48266673,1
+04-01-26,1m,8m,Telephone Appointment,Stanhope Mews West,Finished,12:00 - 12:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,4h 31m,47548912,1
+04-01-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 13m,51716994,1
+04-01-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 59m,44742746,1
+04-01-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 5m,63425331,1
+04-01-26,1m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h,40888617,1
+04-01-26,1m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,5h 5m,47485736,1
+04-01-26,1m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,08:00 - 08:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,3wks 6d,47485736,1
+04-01-26,2m,5m,Notes Not Required,Stanhope Mews West,Finished,16:00 - 16:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse,8h 48m,63997952,1
+04-01-26,2m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 22m,13765758,1
+04-01-26,2m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 30m,19467013,1
+04-01-26,2m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1wks 5d,49830271,1
+04-01-26,2m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 31m,49826966,1
+04-01-26,2m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 39m,63356336,1
+04-01-26,2m,10m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,5h 5m,19480795,1
+04-01-26,2m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,2h 52m,49865424,1
+04-01-26,2m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 22m,49831018,1
+04-01-26,3m,5m,Notes Not Required,Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 35m,49834063,1
+04-01-26,3m,5m,Notes Not Required,Stanhope Mews West,Finished,16:00 - 16:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,2h 33m,28096856,1
+04-01-26,3m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,17:00 - 17:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,5m,50325779,1
+04-01-26,3m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,16:00 - 16:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,1h 56m,49613466,1
+04-01-26,4m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,4m,49827787,1
+04-01-26,4m,5m,Telephone Appointment,Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 37m,52145093,1
+04-01-26,4m,5m,Telephone Appointment,Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,1h 40m,17403601,1
+04-01-26,4m,5m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,11:00 - 11:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,2wks 1d,49837144,1
+04-01-26,4m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 37m,49777387,1
+04-01-26,4m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 36m,40924688,1
+04-01-26,4m,10m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,1h 58m,49834437,1
+04-01-26,5m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,4m,54256629,1
+04-01-26,5m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,32m,49826866,1
+04-01-26,5m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,34m,19720440,1
+04-01-26,5m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,52m,49834596,1
+04-01-26,5m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,57m,64715962,1
+04-01-26,5m,5m,Telephone Appointment,Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 33m,46916376,1
+04-01-26,5m,5m,Appointment Confirmed,Stanhope Mews West,Finished,11:00 - 11:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,2wks 1d,49849921,1
+04-01-26,5m,10m,Telephone Appointment,Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 30m,49853736,1
+04-01-26,5m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 9m,49827291,1
+04-01-26,5m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 13m,49721264,1
+04-01-26,6m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,18m,47477847,1
+04-01-26,6m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,5m,49854509,1
+04-01-26,6m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,28m,4223253,1
+04-01-26,6m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,32m,49719777,1
+04-01-26,6m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,39m,49833888,1
+04-01-26,6m,15m,Appointment Confirmed,Stanhope Mews West,Finished,08:00 - 08:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,1wks 5d,49853937,1
+04-01-26,6m,20m,Embargoed Slot,Stanhope Mews West,Finished,16:00 - 16:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,1wks 2d,57014870,1
+04-01-26,7m,3m,"Booked Admission, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,12h 22m,49866996,1
+04-01-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,22m,49865353,1
+04-01-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,4m,49850019,1
+04-01-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,30m,49835319,1
+04-01-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,30m,58264924,1
+04-01-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,32m,51946165,1
+04-01-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,34m,49836710,1
+04-01-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,16:00 - 16:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,1h 6m,53858622,1
+04-01-26,7m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,08:00 - 08:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,13m,21256434,1
+04-01-26,7m,10m,,Stanhope Mews West,Finished,10:00 - 10:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,1d 10h,49831838,1
+04-01-26,7m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 43m,18356345,1
+04-01-26,8m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,26m,49850404,1
+04-01-26,8m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,58m,49834218,1
+04-01-26,8m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,23h 24m,49834814,1
+04-01-26,8m,10m,,Stanhope Mews West,Finished,08:00 - 08:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,1wks 5d,32429195,1
+04-01-26,8m,10m,,Stanhope Mews West,Finished,10:00 - 10:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,1h 27m,53846726,1
+04-01-26,8m,10m,,Stanhope Mews West,Finished,11:00 - 11:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,1d 19h,32717578,1
+04-01-26,8m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1wks 1d,19322562,1
+04-01-26,8m,10m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,2h 12m,62385409,1
+04-01-26,8m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,,25185272,1
+04-01-26,8m,20m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,16:00 - 16:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,2d 8h,57973394,1
+04-01-26,9m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,23m,17654843,1
+04-01-26,9m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,2h 44m,46217098,1
+04-01-26,9m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,27m,49831983,1
+04-01-26,9m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,2m,47107734,1
+04-01-26,9m,5m,Notes Not Required,Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 51m,63677776,1
+04-01-26,9m,5m,Telephone Appointment,Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,1h 45m,23948350,1
+04-01-26,9m,5m,Appointment Confirmed,Stanhope Mews West,Finished,11:00 - 11:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,2wks 17h,49836292,1
+04-01-26,10m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,41m,53080555,1
+04-01-26,10m,5m,Notes Not Required,Stanhope Mews West,Finished,17:00 - 17:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,4h 38m,49827906,1
+04-01-26,10m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,16:00 - 16:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 54m,49831599,1
+04-01-26,10m,5m,Telephone Appointment,Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 38m,49836839,1
+04-01-26,10m,5m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,1h 58m,49832896,1
+04-01-26,10m,10m,,Stanhope Mews West,Finished,08:00 - 08:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,2wks 6d,52145093,1
+04-01-26,10m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,20h 14m,49833122,1
+04-01-26,10m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,20h 39m,49824988,1
+04-01-26,10m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,21h 42m,49836560,1
+04-01-26,10m,10m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,17h 49m,47547467,1
+04-01-26,10m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,19h 34m,49824555,1
+04-01-26,10m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,19h 7m,49833694,1
+04-01-26,10m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1wks 1d,49849684,1
+04-01-26,11m,5m,Telephone Appointment,Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 32m,49835045,1
+04-01-26,11m,10m,Has QOF Alerts,Stanhope Mews West,Finished,09:00 - 09:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,1wks 1d,49849879,1
+04-01-26,12m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,18m,22088954,1
+04-01-26,12m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,2m,49836500,1
+04-01-26,12m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,50m,49829417,1
+04-01-26,12m,5m,Notes Not Required,Stanhope Mews West,Finished,17:00 - 17:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,15m,49849684,1
+04-01-26,12m,10m,,Stanhope Mews West,Finished,08:00 - 08:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,8m,62737335,1
+04-01-26,12m,10m,,Stanhope Mews West,Finished,14:00 - 14:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,20h 47m,19190080,1
+04-01-26,12m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 36m,49836971,1
+04-01-26,12m,15m,Appointment Confirmed,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,2wks 2d,50150025,1
+04-01-26,13m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,18m,49831496,1
+04-01-26,13m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,13m,25627942,1
+04-01-26,13m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,22m,46217098,1
+04-01-26,13m,15m,Notes Not Required,Stanhope Mews West,Finished,10:00 - 10:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,2wks 1d,49865368,1
+04-01-26,14m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,35m,49826771,1
+04-01-26,14m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 46m,49828186,1
+04-01-26,14m,10m,,Stanhope Mews West,Finished,10:00 - 10:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,1d 10m,54359117,1
+04-01-26,14m,10m,,Stanhope Mews West,Finished,14:00 - 14:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,23h 32m,56068288,1
+04-01-26,14m,10m,,Stanhope Mews West,Finished,14:00 - 14:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,2d 4h,49826056,1
+04-01-26,14m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,19h 56m,27551989,1
+04-01-26,14m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 40m,25576280,1
+04-01-26,14m,15m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,1wks 23h,49855797,1
+04-01-26,14m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,11:00 - 11:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,1wks 6d,65624328,1
+04-01-26,15m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,28m,49834851,1
+04-01-26,15m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,27m,49827472,1
+04-01-26,15m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1d 20h,49836864,1
+04-01-26,15m,10m,Telephone Appointment,Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 56m,49853630,1
+04-01-26,15m,15m,"Online Services Appointment, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,1wks 1d,40337023,1
+04-01-26,15m,15m,"Appointment Confirmed, Online Services Appointment",Stanhope Mews West,Finished,09:00 - 09:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,1wks 5d,65837523,1
+04-01-26,16m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,19m,49834241,1
+04-01-26,16m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,08:00 - 08:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,16m,50104425,1
+04-01-26,16m,10m,,Stanhope Mews West,Finished,14:00 - 14:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,22h 43m,53858622,1
+04-01-26,16m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1wks 1d,49834376,1
+04-01-26,16m,15m,Has QOF Alerts,Stanhope Mews West,Finished,09:00 - 09:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,6d 23h,49824717,1
+04-01-26,16m,15m,"Appointment Confirmed, Appointment Rebooked",Stanhope Mews West,Finished,10:00 - 10:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,2wks 1d,54912031,1
+04-01-26,17m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,31m,49826949,1
+04-01-26,17m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,25m,49849444,1
+04-01-26,17m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,26m,49832046,1
+04-01-26,17m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,08:00 - 08:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,16h 22m,58950739,1
+04-01-26,17m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,45m,47526103,1
+04-01-26,17m,10m,Has QOF Alerts,Stanhope Mews West,Finished,15:00 - 15:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,3h 16m,55301145,1
+04-01-26,17m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,4d 18h,49853774,1
+04-01-26,17m,12m,Outcome Recorded,Stanhope Mews West,Finished,10:00 - 10:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,35m,49836710,1
+04-01-26,17m,15m,Appointment Confirmed,Stanhope Mews West,Finished,08:00 - 08:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,18h 5m,50062834,1
+04-01-26,17m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,2wks 20h,64898696,1
+04-01-26,18m,10m,,Stanhope Mews West,Finished,11:00 - 11:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,2wks 4d,59089776,1
+04-01-26,18m,10m,,Stanhope Mews West,Finished,15:00 - 15:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,5h 43m,44286345,1
+04-01-26,18m,15m,Appointment Confirmed,Stanhope Mews West,Finished,08:00 - 08:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,3wks 1d,49838187,1
+04-01-26,18m,30m,Appointment Confirmed,Stanhope Mews West,Finished,09:00 - 09:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,6d 1h,49832843,1
+04-01-26,19m,5m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 26m,49854125,1
+04-01-26,19m,10m,,Stanhope Mews West,Finished,14:00 - 14:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,6d 20h,47477847,1
+04-01-26,19m,10m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,19h 14m,49837072,1
+04-01-26,19m,15m,"Appointment Confirmed, Online Services Appointment",Stanhope Mews West,Finished,09:00 - 09:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,1wks 1d,31035976,1
+04-01-26,19m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,2wks 23h,49825926,1
+04-01-26,20m,10m,Telephone Appointment,Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 59m,27551989,1
+04-01-26,20m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1wks 1d,49828389,1
+04-01-26,21m,5m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,1h 36m,49827373,1
+04-01-26,21m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,4h 35m,31052009,1
+04-01-26,21m,15m,Appointment Confirmed,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1wks 1d,65111207,1
+04-01-26,22m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,58m,48654471,1
+04-01-26,22m,5m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-01-26,Stanhope Mews Pharmacist ARRS,3h 11m,49825931,1
+04-01-26,23m,5m,Notes Not Required,Stanhope Mews West,Finished,17:00 - 17:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,3h 41m,20022058,1
+04-01-26,23m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,16h 49m,49829408,1
+04-01-26,23m,10m,Has QOF Alerts,Stanhope Mews West,Finished,09:00 - 09:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,6d 22h,51962565,1
+04-01-26,24m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,1d 23h,49831773,1
+04-01-26,25m,15m,"Appointment Rebooked, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1wks 1d,62420033,1
+04-01-26,26m,12m,Outcome Recorded,Stanhope Mews West,Finished,10:00 - 10:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,21m,19720440,1
+04-01-26,26m,12m,Outcome Recorded,Stanhope Mews West,Finished,10:00 - 10:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,22m,49866996,1
+04-01-26,28m,15m,Appointment Confirmed,Stanhope Mews West,Finished,09:00 - 09:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,3wks 1d,49838187,1
+04-01-26,29m,15m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,2wks 2d,49824169,1
+04-01-26,31m,5m,Notes Not Required,Stanhope Mews West,Finished,13:00 - 13:59,"MCGREAL, Sinead",04-01-26,Stanhope Mews Nurse Practitioner,,49832367,1
+04-01-26,31m,20m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,2wks 2d,64882727,1
+04-01-26,34m,15m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,1wks 1d,49867563,1
+04-01-26,38m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,56m,50324674,1
+04-01-26,38m,5m,Notes Not Required,Stanhope Mews West,Finished,12:00 - 12:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,5d 17h,66203935,1
+04-01-26,38m,20m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,1wks 1d,66090493,1
+04-01-26,45m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,37m,27587581,1
+04-01-26,46m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,58m,49710864,1
+04-01-26,48m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,47m,49832567,1
+04-01-26,48m,20m,Embargoed Slot,Stanhope Mews West,Finished,16:00 - 16:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,2d 8h,64805998,1
+04-01-26,49m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,16m,53858622,1
+04-01-26,50m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,55m,49835034,1
+04-01-26,51m,20m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"DAMIRJI, Hana (Dr)",04-01-26,Stanhope Mews GP,2wks 2d,49829946,1
+04-01-26,52m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,43m,32099148,1
+04-01-26,53m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,30m,8687440,1
+04-01-26,56m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,56m,49824643,1
+04-01-26,57m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,20m,47493497,1
+04-01-26,58m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,55m,25286005,1
+04-01-26,1h 3m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,26m,49831468,1
+04-01-26,1h 4m,30m,,Stanhope Mews West,Finished,16:00 - 16:59,"ADEN, Hussein (Mr)",04-01-26,HCA Session,3wks 1d,20077386,1
+04-01-26,1h 6m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,23m,49850275,1
+04-01-26,1h 15m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,11m,62737335,1
+04-01-26,1h 28m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,11m,49836500,1
+04-01-26,1h 47m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOWDON, Alexandra (Dr)",04-01-26,Stanhope Mews GP,54m,48654471,1
+04-01-26,1h 50m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"CLAY-BAKER, Lois (Dr)",04-01-26,Stanhope Mews Registrar,1wks 1d,50394470,1
+04-01-26,1h 56m,10m,Initial Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1wks 1h,17385359,1
+04-01-26,3h 35m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-01-26,Stanhope Mews GP,1wks 1d,49835303,1
+04-02-26,,10m,,Stanhope Mews West,Did Not Attend,08:00 - 08:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,1d 15h,66071671,1
+04-02-26,,10m,,Stanhope Mews West,Did Not Attend,08:00 - 08:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,5d 16h,49865059,1
+04-02-26,,10m,,Stanhope Mews West,Did Not Attend,09:00 - 09:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,22h 39m,49835303,1
+04-02-26,,10m,,Stanhope Mews West,Did Not Attend,14:00 - 14:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,1d 4h,49836500,1
+04-02-26,,10m,Has QOF Alerts,Stanhope Mews West,Did Not Attend,12:00 - 12:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,20h 52m,49719777,1
+04-02-26,,10m,Has QOF Alerts,Stanhope Mews West,Did Not Attend,14:00 - 14:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,6d 21h,49833694,1
+04-02-26,,10m,SMS Reminder Sent,Stanhope Mews West,Did Not Attend,14:00 - 14:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,3d 4h,49833041,1
+04-02-26,,12m,Outcome Recorded,Stanhope Mews West,Did Not Attend,10:00 - 10:59,"CANTLAY, Anna (Dr)",04-02-26,Stanhope Mews GP,43m,63792704,1
+04-02-26,,15m,Appointment Confirmed,Stanhope Mews West,Did Not Attend,09:00 - 09:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,16961170,1
+04-02-26,,15m,Appointment Confirmed,Stanhope Mews West,Did Not Attend,13:00 - 13:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2wks 19h,58921619,1
+04-02-26,,15m,Appointment Confirmed,Stanhope Mews West,Did Not Attend,14:00 - 14:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,6d 3h,62699788,1
+04-02-26,,15m,Appointment Confirmed,Stanhope Mews West,Did Not Attend,15:00 - 15:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,2wks 2d,17711959,1
+04-02-26,0m,1m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"HUSSEIN, Shuman (Dr)",04-02-26,Stanhope Mews GP,,64433406,1
+04-02-26,0m,3m,Embargoed Slot,Stanhope Mews West,Finished,16:00 - 16:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,32m,52253642,1
+04-02-26,0m,5m,,Stanhope Mews West,Finished,16:00 - 16:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,2h 1m,46658908,1
+04-02-26,0m,5m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,25264508,1
+04-02-26,0m,5m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"CLAY-BAKER, Lois (Dr)",04-02-26,Stanhope Mews Registrar,,11327074,1
+04-02-26,0m,5m,Notes Not Required,Stanhope Mews West,Finished,12:00 - 12:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,18m,57843757,1
+04-02-26,0m,5m,Notes Not Required,Stanhope Mews West,Finished,12:00 - 12:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,4h 6m,19025721,1
+04-02-26,0m,5m,Notes Not Required,Stanhope Mews West,Finished,17:00 - 17:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2h 12m,47549292,1
+04-02-26,0m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,11:00 - 11:59,"PARIKH, Chinar (Dr)",04-02-26,Stanhope Mews Registrar,,17410374,1
+04-02-26,0m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,11:00 - 11:59,"CLAY-BAKER, Lois (Dr)",04-02-26,Stanhope Mews Registrar,,17227489,1
+04-02-26,0m,10m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 8m,19363902,1
+04-02-26,0m,10m,Telephone Appointment,Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 59m,49831981,1
+04-02-26,0m,10m,"Telephone Appointment, Telephone Review",Stanhope Mews West,Finished,15:00 - 15:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,2h 26m,58479630,1
+04-02-26,0m,10m,"Telephone Appointment, Telephone Review",Stanhope Mews West,Finished,16:00 - 16:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,2h 31m,33341713,1
+04-02-26,0m,20m,,Stanhope Mews West,Finished,10:00 - 10:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,2d 18h,63350299,1
+04-02-26,1m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,49836420,1
+04-02-26,1m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,49832891,1
+04-02-26,1m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,58m,49826771,1
+04-02-26,1m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,19363902,1
+04-02-26,1m,5m,Notes Not Required,Stanhope Mews West,Finished,12:00 - 12:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,28m,46598369,1
+04-02-26,1m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,47m,49833866,1
+04-02-26,1m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,13:00 - 13:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1wks 1d,49849587,1
+04-02-26,1m,8m,Telephone Appointment,Stanhope Mews West,Finished,12:00 - 12:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1d 19h,65879937,1
+04-02-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,16h 16m,49865621,1
+04-02-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,20h 4m,49824982,1
+04-02-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,21h 16m,12043919,1
+04-02-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,1h 51m,49824519,1
+04-02-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 46m,49828045,1
+04-02-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 11m,49826949,1
+04-02-26,1m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,1h 58m,47689022,1
+04-02-26,1m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,41m,49850377,1
+04-02-26,2m,3m,"Booked Admission, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,10h 30m,64261308,1
+04-02-26,2m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,56m,55925762,1
+04-02-26,2m,3m,Embargoed Slot,Stanhope Mews West,Finished,16:00 - 16:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,2h 6m,64261308,1
+04-02-26,2m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,35m,49824713,1
+04-02-26,2m,5m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,6m,49833550,1
+04-02-26,2m,5m,Notes Not Required,Stanhope Mews West,Finished,17:00 - 17:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,24m,49826229,1
+04-02-26,2m,10m,,Stanhope Mews West,Finished,11:00 - 11:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,1h 10m,49829432,1
+04-02-26,2m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,21h 15m,49854460,1
+04-02-26,2m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 11m,24709971,1
+04-02-26,2m,10m,"Online Services Appointment, Telephone Appointment",Stanhope Mews West,Finished,16:00 - 16:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 1d,58726744,1
+04-02-26,3m,8m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,15:00 - 15:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,22h 1m,17176616,1
+04-02-26,3m,8m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,16:00 - 16:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,22h 52m,49850169,1
+04-02-26,3m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 3m,49853981,1
+04-02-26,4m,3m,"Booked Admission, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,17h 8m,64664823,1
+04-02-26,4m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,28m,49835344,1
+04-02-26,4m,5m,Notes Not Required,Stanhope Mews West,Finished,12:00 - 12:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,31m,46505375,1
+04-02-26,4m,5m,Appointment Confirmed,Stanhope Mews West,Finished,11:00 - 11:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2wks 2d,57546655,1
+04-02-26,4m,10m,Initial Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 20h,49835134,1
+04-02-26,5m,3m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"HUSSEIN, Shuman (Dr)",04-02-26,Stanhope Mews GP,2h 14m,49849540,1
+04-02-26,5m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,34m,65336446,1
+04-02-26,5m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,55400305,1
+04-02-26,5m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,54006454,1
+04-02-26,5m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,12:00 - 12:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,3h 23m,55301145,1
+04-02-26,5m,10m,,Stanhope Mews West,Finished,08:00 - 08:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,20h 56m,49833352,1
+04-02-26,5m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 6m,35702723,1
+04-02-26,6m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,49m,19025721,1
+04-02-26,6m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,54m,49826015,1
+04-02-26,6m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,25264508,1
+04-02-26,6m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,52253642,1
+04-02-26,6m,5m,Notes Not Required,Stanhope Mews West,Finished,12:00 - 12:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,3h 20m,54359117,1
+04-02-26,6m,5m,Notes Not Required,Stanhope Mews West,Finished,17:00 - 17:59,"PARIKH, Chinar (Dr)",04-02-26,Stanhope Mews Registrar,3h 30m,53305970,1
+04-02-26,6m,8m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1d 20h,49833546,1
+04-02-26,6m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 18m,49850198,1
+04-02-26,6m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,08:00 - 08:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2d 16h,27244261,1
+04-02-26,6m,30m,,Stanhope Mews West,Finished,11:00 - 11:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,23h 52m,49836420,1
+04-02-26,7m,3m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"HUSSEIN, Shuman (Dr)",04-02-26,Stanhope Mews GP,1d 17h,49835193,1
+04-02-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,14m,51732568,1
+04-02-26,7m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,56m,19802697,1
+04-02-26,7m,8m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,19h 32m,54147435,1
+04-02-26,7m,10m,,Stanhope Mews West,Finished,10:00 - 10:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,3wks 5d,49860427,1
+04-02-26,7m,10m,,Stanhope Mews West,Finished,10:00 - 10:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,1d 11m,54912031,1
+04-02-26,7m,10m,,Stanhope Mews West,Finished,11:00 - 11:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,50m,49829432,1
+04-02-26,7m,10m,"Online Services Appointment, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 1d,49826229,1
+04-02-26,7m,20m,Has QOF Alerts,Stanhope Mews West,Finished,11:00 - 11:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,1d 20h,49838370,1
+04-02-26,8m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,2d 21h,49826771,1
+04-02-26,8m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,29372433,1
+04-02-26,8m,3m,Embargoed Slot,Stanhope Mews West,Finished,16:00 - 16:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,51946165,1
+04-02-26,8m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,7m,49834735,1
+04-02-26,8m,10m,,Stanhope Mews West,Finished,10:00 - 10:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,1d 22h,49831631,1
+04-02-26,8m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 1d,46505470,1
+04-02-26,9m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,7m,49836217,1
+04-02-26,9m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,40m,53729512,1
+04-02-26,9m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,49835242,1
+04-02-26,9m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,55m,49866996,1
+04-02-26,9m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,8m,33040936,1
+04-02-26,9m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,23m,49833584,1
+04-02-26,9m,5m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"HUSSEIN, Shuman (Dr)",04-02-26,Stanhope Mews GP,1d 17h,49849531,1
+04-02-26,9m,5m,Has QOF Alerts,Stanhope Mews West,Finished,16:00 - 16:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,4wks 1d,49856039,1
+04-02-26,9m,10m,,Stanhope Mews West,Finished,08:00 - 08:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,5d 21h,13107384,1
+04-02-26,9m,10m,Telephone Appointment,Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 47m,49837134,1
+04-02-26,9m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,34m,20103141,1
+04-02-26,9m,10m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,1wks 5d,49834491,1
+04-02-26,9m,15m,Notes Not Required,Stanhope Mews West,Finished,10:00 - 10:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1wks 2d,49831952,1
+04-02-26,9m,15m,Appointment Confirmed,Stanhope Mews West,Finished,11:00 - 11:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,3d 1h,20881844,1
+04-02-26,10m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,6m,49855628,1
+04-02-26,10m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,16m,46914327,1
+04-02-26,10m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,2h 59m,64261308,1
+04-02-26,10m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,23m,17656496,1
+04-02-26,10m,5m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"PARIKH, Chinar (Dr)",04-02-26,Stanhope Mews Registrar,,17384653,1
+04-02-26,10m,5m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,11:00 - 11:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2wks 1d,39861387,1
+04-02-26,10m,10m,,Stanhope Mews West,Finished,09:00 - 09:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,23h 17m,65111207,1
+04-02-26,10m,10m,,Stanhope Mews West,Finished,10:00 - 10:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,1d 1h,41822850,1
+04-02-26,10m,10m,,Stanhope Mews West,Finished,14:00 - 14:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,4wks 2d,46658908,1
+04-02-26,10m,10m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 5m,49836210,1
+04-02-26,10m,10m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,17h 14m,20077386,1
+04-02-26,10m,10m,Telephone Appointment,Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,1h 28m,29220916,1
+04-02-26,10m,10m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,1wks 3d,49849820,1
+04-02-26,10m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 20m,49830000,1
+04-02-26,10m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 1d,59551551,1
+04-02-26,10m,15m,Appointment Confirmed,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,49833283,1
+04-02-26,10m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,23h 46m,54912031,1
+04-02-26,10m,15m,Appointment Confirmed,Stanhope Mews West,Finished,15:00 - 15:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 6d,63266886,1
+04-02-26,10m,15m,Appointment Rebooked,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 18h,61409851,1
+04-02-26,11m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,21m,19105366,1
+04-02-26,11m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,23m,30277975,1
+04-02-26,11m,10m,,Stanhope Mews West,Finished,08:00 - 08:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,1d 15h,51968507,1
+04-02-26,11m,10m,Telephone Appointment,Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,1h 51m,41507780,1
+04-02-26,11m,10m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,2wks 1d,4760617,1
+04-02-26,11m,15m,Appointment Confirmed,Stanhope Mews West,Finished,08:00 - 08:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2d 16h,36972350,1
+04-02-26,11m,15m,Appointment Confirmed,Stanhope Mews West,Finished,11:00 - 11:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,2d 1h,49865043,1
+04-02-26,11m,15m,Appointment Confirmed,Stanhope Mews West,Finished,12:00 - 12:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,3d 2h,47485690,1
+04-02-26,11m,15m,Appointment Confirmed,Stanhope Mews West,Finished,15:00 - 15:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,2wks 3d,62898773,1
+04-02-26,12m,3m,"Booked Admission, Telephone Appointment",Stanhope Mews West,Finished,16:00 - 16:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,37m,48448410,1
+04-02-26,12m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,42m,52880932,1
+04-02-26,12m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,49866923,1
+04-02-26,12m,10m,,Stanhope Mews West,Finished,08:00 - 08:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,22h 2m,49849684,1
+04-02-26,12m,10m,Has QOF Alerts,Stanhope Mews West,Finished,11:00 - 11:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,4wks 1d,60766181,1
+04-02-26,12m,10m,Has QOF Alerts,Stanhope Mews West,Finished,12:00 - 12:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,2d 19h,49855694,1
+04-02-26,12m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,34m,19672156,1
+04-02-26,12m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,1d 18h,49829432,1
+04-02-26,12m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,3d 13h,20536209,1
+04-02-26,12m,15m,Appointment Confirmed,Stanhope Mews West,Finished,15:00 - 15:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1wks 3d,65668110,1
+04-02-26,12m,15m,"Appointment Rebooked, Has QOF Alerts",Stanhope Mews West,Finished,14:00 - 14:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,5h 8m,54665075,1
+04-02-26,13m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,10m,4772167,1
+04-02-26,13m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,21m,49825063,1
+04-02-26,13m,10m,,Stanhope Mews West,Finished,09:00 - 09:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,3wks 2d,61925044,1
+04-02-26,13m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,32m,49849479,1
+04-02-26,13m,10m,"Online Services Appointment, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,33644533,1
+04-02-26,13m,10m,"Online Services Appointment, Telephone Appointment",Stanhope Mews West,Finished,17:00 - 17:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,3d 9h,49831713,1
+04-02-26,13m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,13:00 - 13:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1wks 5d,55843843,1
+04-02-26,13m,30m,,Stanhope Mews West,Finished,15:00 - 15:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,3wks 1d,2053657,1
+04-02-26,14m,2m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"HUSSEIN, Shuman (Dr)",04-02-26,Stanhope Mews GP,,62399204,1
+04-02-26,14m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,19m,19399361,1
+04-02-26,14m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,36m,65300107,1
+04-02-26,14m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,53m,49832659,1
+04-02-26,14m,10m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 1d,58264924,1
+04-02-26,14m,15m,Appointment Confirmed,Stanhope Mews West,Finished,09:00 - 09:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1wks 5d,48331635,1
+04-02-26,14m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,3wks 22h,49829819,1
+04-02-26,14m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 6d,29484404,1
+04-02-26,14m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1wks 6d,49834615,1
+04-02-26,14m,15m,Appointment Confirmed,Stanhope Mews West,Finished,16:00 - 16:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2wks 1d,47490448,1
+04-02-26,14m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,14:00 - 14:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,2wks 6d,49854064,1
+04-02-26,15m,3m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"HUSSEIN, Shuman (Dr)",04-02-26,Stanhope Mews GP,2h 32m,49827483,1
+04-02-26,15m,10m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,18h 27m,49866978,1
+04-02-26,15m,10m,"Online Services Appointment, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,57843757,1
+04-02-26,15m,12m,Outcome Recorded,Stanhope Mews West,Finished,10:00 - 10:59,"CANTLAY, Anna (Dr)",04-02-26,Stanhope Mews GP,,55400305,1
+04-02-26,15m,12m,Outcome Recorded,Stanhope Mews West,Finished,10:00 - 10:59,"CANTLAY, Anna (Dr)",04-02-26,Stanhope Mews GP,43m,52880932,1
+04-02-26,15m,15m,Appointment Confirmed,Stanhope Mews West,Finished,09:00 - 09:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1wks 6d,63443602,1
+04-02-26,15m,15m,Appointment Confirmed,Stanhope Mews West,Finished,11:00 - 11:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,6d 39m,49831015,1
+04-02-26,15m,20m,Has QOF Alerts,Stanhope Mews West,Finished,08:00 - 08:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,23h 37m,21256434,1
+04-02-26,16m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,30m,54665075,1
+04-02-26,16m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 5d,57550747,1
+04-02-26,16m,10m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,2wks 3h,45466233,1
+04-02-26,16m,10m,"Online Services Appointment, Telephone Appointment",Stanhope Mews West,Finished,16:00 - 16:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,2d 4h,65360494,1
+04-02-26,16m,12m,"Has QOF Alerts, Outcome Recorded",Stanhope Mews West,Finished,10:00 - 10:59,"CANTLAY, Anna (Dr)",04-02-26,Stanhope Mews GP,56m,19802697,1
+04-02-26,16m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,0m,47559800,1
+04-02-26,16m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2d 17h,31366982,1
+04-02-26,17m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,37m,63792704,1
+04-02-26,17m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,19m,65015463,1
+04-02-26,17m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,20m,49837043,1
+04-02-26,17m,10m,,Stanhope Mews West,Finished,12:00 - 12:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,2d 21h,47483785,1
+04-02-26,17m,10m,Telephone Appointment,Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,1h 19m,17853421,1
+04-02-26,17m,10m,Telephone Appointment,Stanhope Mews West,Finished,16:00 - 16:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 1d,49825159,1
+04-02-26,17m,12m,Outcome Recorded,Stanhope Mews West,Finished,15:00 - 15:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,6h 9m,55925762,1
+04-02-26,17m,12m,Outcome Recorded,Stanhope Mews West,Finished,16:00 - 16:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,5h 7m,49835242,1
+04-02-26,17m,15m,Appointment Confirmed,Stanhope Mews West,Finished,11:00 - 11:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,2d 18h,48505139,1
+04-02-26,17m,15m,Appointment Confirmed,Stanhope Mews West,Finished,12:00 - 12:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,1d 18h,49856240,1
+04-02-26,18m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,6m,49827590,1
+04-02-26,18m,5m,,Stanhope Mews West,Finished,16:00 - 16:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,13m,49855628,1
+04-02-26,18m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 3d,55273489,1
+04-02-26,18m,15m,Appointment Confirmed,Stanhope Mews West,Finished,14:00 - 14:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,2wks 1d,21166552,1
+04-02-26,18m,15m,Appointment Confirmed,Stanhope Mews West,Finished,14:00 - 14:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1wks 3d,2053657,1
+04-02-26,18m,15m,Appointment Confirmed,Stanhope Mews West,Finished,15:00 - 15:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,2wks 2d,62795006,1
+04-02-26,19m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,10m,61925044,1
+04-02-26,19m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,49836620,1
+04-02-26,19m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,12:00 - 12:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,58m,31425886,1
+04-02-26,19m,15m,"Appointment Confirmed, Online Services Appointment",Stanhope Mews West,Finished,09:00 - 09:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,17011672,1
+04-02-26,20m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,44m,49837075,1
+04-02-26,20m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,60047074,1
+04-02-26,20m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,6m,51284042,1
+04-02-26,20m,10m,,Stanhope Mews West,Finished,08:00 - 08:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,19h 7m,19025721,1
+04-02-26,20m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,16:00 - 16:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,3wks 3d,63636939,1
+04-02-26,21m,12m,Outcome Recorded,Stanhope Mews West,Finished,16:00 - 16:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1h 22m,17732782,1
+04-02-26,22m,3m,Embargoed Slot,Stanhope Mews West,Finished,16:00 - 16:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,49850233,1
+04-02-26,22m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,51m,22065030,1
+04-02-26,22m,10m,Has QOF Alerts,Stanhope Mews West,Finished,14:00 - 14:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,2wks 6d,19312328,1
+04-02-26,22m,15m,"Appointment Confirmed, Has QOF Alerts, Online Services Appointment",Stanhope Mews West,Finished,09:00 - 09:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,32613854,1
+04-02-26,22m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2d 17h,31366982,1
+04-02-26,22m,15m,Appointment Rebooked,Stanhope Mews West,Finished,09:00 - 09:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 16h,49826195,1
+04-02-26,23m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,16m,33040936,1
+04-02-26,23m,15m,Appointment Rebooked,Stanhope Mews West,Finished,14:00 - 14:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,2wks 22h,19931866,1
+04-02-26,24m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,16:00 - 16:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,2h 5m,49833584,1
+04-02-26,24m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 1d,49824336,1
+04-02-26,24m,15m,"Appointment Confirmed, Online Services Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 5d,62806976,1
+04-02-26,24m,20m,Has QOF Alerts,Stanhope Mews West,Finished,15:00 - 15:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,1d 22h,49833584,1
+04-02-26,25m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,12m,28655428,1
+04-02-26,25m,10m,Telephone Appointment,Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,24m,19363902,1
+04-02-26,25m,15m,Appointment Confirmed,Stanhope Mews West,Finished,14:00 - 14:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,1wks 23h,17108279,1
+04-02-26,26m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,49849566,1
+04-02-26,26m,12m,Outcome Recorded,Stanhope Mews West,Finished,10:00 - 10:59,"CANTLAY, Anna (Dr)",04-02-26,Stanhope Mews GP,1h 14m,61426900,1
+04-02-26,27m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,12m,65359516,1
+04-02-26,27m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 6d,64271245,1
+04-02-26,27m,12m,Outcome Recorded,Stanhope Mews West,Finished,16:00 - 16:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,4h 51m,49829056,1
+04-02-26,28m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,21m,61426900,1
+04-02-26,28m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,6m,52150544,1
+04-02-26,28m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,17h 13m,18356345,1
+04-02-26,28m,30m,,Stanhope Mews West,Finished,14:00 - 14:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,3wks 1d,49832171,1
+04-02-26,30m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,16954276,1
+04-02-26,30m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,53048447,1
+04-02-26,31m,30m,,Stanhope Mews West,Finished,16:00 - 16:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,3wks 1d,49854531,1
+04-02-26,32m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,24m,49824201,1
+04-02-26,32m,5m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,2h 25m,49836217,1
+04-02-26,33m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,49826377,1
+04-02-26,33m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,18h 19m,49832843,1
+04-02-26,35m,10m,,Stanhope Mews West,Finished,09:00 - 09:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,1d 18h,49829432,1
+04-02-26,36m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,63451735,1
+04-02-26,37m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,31m,60819125,1
+04-02-26,37m,10m,Telephone Appointment,Stanhope Mews West,Finished,17:00 - 17:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,49832723,1
+04-02-26,39m,30m,,Stanhope Mews West,Finished,14:00 - 14:59,"ADEN, Hussein (Mr)",04-02-26,HCA Session,3d 2h,65993317,1
+04-02-26,40m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,26m,49832301,1
+04-02-26,40m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,21m,49867147,1
+04-02-26,40m,5m,Notes Not Required,Stanhope Mews West,Finished,17:00 - 17:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,4h 56m,49865087,1
+04-02-26,40m,15m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,3wks 20h,49829367,1
+04-02-26,41m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,47m,49827740,1
+04-02-26,41m,30m,,Stanhope Mews West,Finished,15:00 - 15:59,"SOTO VASQUEZ, Isabella (Miss)",04-02-26,Session,3wks 1d,49854180,1
+04-02-26,42m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,10m,45010692,1
+04-02-26,42m,15m,Appointment Confirmed,Stanhope Mews West,Finished,08:00 - 08:59,"MCGREAL, Sinead",04-02-26,Stanhope Mews Nurse Practitioner,2d 14h,49836217,1
+04-02-26,43m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,19m,55190204,1
+04-02-26,44m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,54m,47552508,1
+04-02-26,44m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,15m,17732782,1
+04-02-26,45m,10m,Telephone Appointment,Stanhope Mews West,Finished,17:00 - 17:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 3d,25200693,1
+04-02-26,49m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,45m,49833550,1
+04-02-26,50m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,59m,55409576,1
+04-02-26,52m,3m,Embargoed Slot,Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,49829056,1
+04-02-26,53m,10m,Initial Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 19h,49836280,1
+04-02-26,53m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,10:00 - 10:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,49826774,1
+04-02-26,56m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,1d 23h,48233015,1
+04-02-26,56m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,17744449,1
+04-02-26,57m,10m,Appointment Confirmed,Stanhope Mews West,Finished,10:00 - 10:59,"HUSSEIN, Shuman (Dr)",04-02-26,Stanhope Mews GP,,49856240,1
+04-02-26,58m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,10:00 - 10:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,23m,65624328,1
+04-02-26,59m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,,23593646,1
+04-02-26,1h 8m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,50129651,1
+04-02-26,1h 8m,10m,"Online Services Appointment, Telephone Appointment",Stanhope Mews West,Finished,17:00 - 17:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,64031003,1
+04-02-26,1h 8m,10m,"Has QOF Alerts, Online Services Appointment, Telephone Appointment",Stanhope Mews West,Finished,16:00 - 16:59,"DAMIRJI, Hana (Dr)",04-02-26,Stanhope Mews GP,1wks 1d,24898577,1
+04-02-26,1h 11m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,2wks 5d,49835715,1
+04-02-26,1h 11m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,2wks 5d,49835715,1
+04-02-26,1h 12m,10m,Telephone Appointment,Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-02-26,Stanhope Mews Pharmacist ARRS,2h 9m,49194511,1
+04-02-26,1h 12m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,11:00 - 11:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 3d,49836230,1
+04-02-26,1h 14m,15m,Appointment Confirmed,Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,57982248,1
+04-02-26,1h 17m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"LOWDON, Alexandra (Dr)",04-02-26,Stanhope Mews GP,1wks 2d,56955067,1
+04-02-26,1h 52m,3m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"HUSSEIN, Shuman (Dr)",04-02-26,Stanhope Mews GP,2h 59m,52668391,1
+04-02-26,2h 18m,5m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"STANDERLINE, Emma (Dr)",04-02-26,Stanhope Mews GP,3wks 2d,49834724,1
+04-02-26,2h 36m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"LOPES VIEIRA, Arianna (Dr)",04-02-26,Stanhope Mews GP,29m,49833655,1
+04-02-26,2h 46m,3m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"HUSSEIN, Shuman (Dr)",04-02-26,Stanhope Mews GP,1d 17h,49827733,1
+04-07-26,,5m,"Has QOF Alerts, Outcome Recorded",Stanhope Mews West,Did Not Attend,11:00 - 11:59,"HUSSEIN, Shuman (Dr)",04-07-26,Stanhope Mews GP,36m,49836458,1
+04-07-26,,10m,Online Services Appointment,Stanhope Mews West,Did Not Attend,09:00 - 09:59,"ADEN, Hussein (Mr)",04-07-26,HCA Session,2d 20h,25909251,1
+04-07-26,,15m,"Appointment Confirmed, Online Services Appointment",Stanhope Mews West,Did Not Attend,10:00 - 10:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,2wks 3d,49838394,1
+04-07-26,,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Did Not Attend,10:00 - 10:59,"PARIKH, Chinar (Dr)",04-07-26,Stanhope Mews Registrar,1wks 6d,49624724,1
+04-07-26,,15m,Appointment Rebooked,Stanhope Mews West,Did Not Attend,09:00 - 09:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,1wks 5d,23906208,1
+04-07-26,,30m,,Stanhope Mews West,Did Not Attend,09:00 - 09:59,"SOTO VASQUEZ, Isabella (Miss)",04-07-26,Session,4d 17h,49825926,1
+04-07-26,,30m,Has QOF Alerts,Stanhope Mews West,Did Not Attend,14:00 - 14:59,"SOTO VASQUEZ, Isabella (Miss)",04-07-26,Session,3wks 6d,49825865,1
+04-07-26,0m,5m,Notes Not Required,Stanhope Mews West,Finished,12:00 - 12:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,4d 21h,49834491,1
+04-07-26,0m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,16:00 - 16:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,1h 22m,49827147,1
+04-07-26,0m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,17:00 - 17:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,10m,49831572,1
+04-07-26,0m,10m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,2h 11m,56967406,1
+04-07-26,0m,10m,"Telephone Appointment, Telephone Review",Stanhope Mews West,Finished,15:00 - 15:59,"SOTO VASQUEZ, Isabella (Miss)",04-07-26,Session,1h 52m,49854180,1
+04-07-26,0m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,4d 18h,28206865,1
+04-07-26,0m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,10:00 - 10:59,"ADEN, Hussein (Mr)",04-07-26,HCA Session,22m,66738645,1
+04-07-26,0m,30m,,Stanhope Mews West,Finished,15:00 - 15:59,"SOTO VASQUEZ, Isabella (Miss)",04-07-26,Session,3wks 6d,47485505,1
+04-07-26,1m,3m,Embargoed Slot,Stanhope Mews West,Finished,09:00 - 09:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,49m,24133204,1
+04-07-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,4d 16h,49827251,1
+04-07-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,4d 17h,49867151,1
+04-07-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,4d 17h,19732772,1
+04-07-26,1m,10m,Telephone Appointment,Stanhope Mews West,Finished,09:00 - 09:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,4d 17h,49856069,1
+04-07-26,1m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,2h 9m,49849833,1
+04-07-26,1m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,3h 38m,47100806,1
+04-07-26,1m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,3h 42m,18653707,1
+04-07-26,2m,2m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,11:00 - 11:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,1h 40m,49850119,1
+04-07-26,2m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,16:00 - 16:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,1h 23m,65715867,1
+04-07-26,2m,5m,"Has QOF Alerts, Notes Not Required",Stanhope Mews West,Finished,11:00 - 11:59,"DAMIRJI, Hana (Dr)",04-07-26,Stanhope Mews GP,,26626505,1
+04-07-26,2m,10m,Telephone Appointment,Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,2h 19m,17373735,1
+04-07-26,3m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,16m,61558527,1
+04-07-26,3m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,1h,49825392,1
+04-07-26,3m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,10:00 - 10:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,1h 11m,49855606,1
+04-07-26,3m,5m,Telephone Screening,Stanhope Mews West,Finished,11:00 - 11:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,,49827686,1
+04-07-26,3m,6m,Outcome Recorded,Stanhope Mews West,Finished,11:00 - 11:59,"HUSSEIN, Shuman (Dr)",04-07-26,Stanhope Mews GP,,49827686,1
+04-07-26,3m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,1h 59m,9996506,1
+04-07-26,3m,10m,Telephone Appointment,Stanhope Mews West,Finished,13:00 - 13:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,3h 22m,49855803,1
+04-07-26,3m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,15:00 - 15:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,2h 57m,55941158,1
+04-07-26,4m,3m,Embargoed Slot,Stanhope Mews West,Finished,16:00 - 16:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,38m,49825392,1
+04-07-26,4m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,08:00 - 08:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,26m,49830000,1
+04-07-26,4m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,10:00 - 10:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,1h 24m,4223253,1
+04-07-26,4m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,1h 2m,49825345,1
+04-07-26,4m,5m,Notes Not Required,Stanhope Mews West,Finished,16:00 - 16:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,2h 56m,49832891,1
+04-07-26,4m,6m,Outcome Recorded,Stanhope Mews West,Finished,10:00 - 10:59,"HUSSEIN, Shuman (Dr)",04-07-26,Stanhope Mews GP,1h 57m,54495528,1
+04-07-26,4m,10m,,Stanhope Mews West,Finished,11:00 - 11:59,"SOTO VASQUEZ, Isabella (Miss)",04-07-26,Session,4d 19h,19105366,1
+04-07-26,4m,10m,Has QOF Alerts,Stanhope Mews West,Finished,11:00 - 11:59,"ADEN, Hussein (Mr)",04-07-26,HCA Session,56m,49834176,1
+04-07-26,4m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,1h 59m,49834382,1
+04-07-26,4m,15m,"Appointment Confirmed, Has QOF Alerts",Stanhope Mews West,Finished,15:00 - 15:59,"HUSSEIN, Shuman (Dr)",04-07-26,Stanhope Mews GP,3wks 5h,47283342,1
+04-07-26,5m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,29m,54495528,1
+04-07-26,5m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,10:00 - 10:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,1h 7m,28847526,1
+04-07-26,5m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,14:00 - 14:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,15m,58901392,1
+04-07-26,5m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,2h 8m,47485440,1
+04-07-26,5m,10m,Telephone Appointment,Stanhope Mews West,Finished,11:00 - 11:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,1wks 6d,20854737,1
+04-07-26,5m,10m,"Has QOF Alerts, Telephone Appointment",Stanhope Mews West,Finished,10:00 - 10:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,1h 59m,17752676,1
+04-07-26,6m,5m,Notes Not Required,Stanhope Mews West,Finished,11:00 - 11:59,"PARIKH, Chinar (Dr)",04-07-26,Stanhope Mews Registrar,1wks 1h,25151816,1
+04-07-26,6m,10m,,Stanhope Mews West,Finished,10:00 - 10:59,"SOTO VASQUEZ, Isabella (Miss)",04-07-26,Session,4d 22h,49824945,1
+04-07-26,6m,10m,Telephone Appointment,Stanhope Mews West,Finished,14:00 - 14:59,"URGENT CLINIC, Pharmacist",04-07-26,Stanhope Mews Pharmacist ARRS,3h 34m,49836709,1
+04-07-26,7m,2m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,11:00 - 11:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,39m,49836458,1
+04-07-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,08:00 - 08:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,28m,64700711,1
+04-07-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,14:00 - 14:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,11m,65510937,1
+04-07-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,15:00 - 15:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,55m,52029474,1
+04-07-26,7m,3m,Embargoed Slot,Stanhope Mews West,Finished,16:00 - 16:59,"STANDERLINE, Emma (Dr)",04-07-26,Stanhope Mews GP,1h 16m,48134092,1
+04-07-26,7m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,08:00 - 08:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,28m,30273642,1
+04-07-26,7m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,08:00 - 08:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,28m,50372032,1
+04-07-26,7m,3m,"Embargoed Slot, Has QOF Alerts",Stanhope Mews West,Finished,09:00 - 09:59,"SLINEY, Matthew (Dr)",04-07-26,Stanhope Mews GP,28m,24709971,1
+04-07-26,7m,10m,,Stanhope Mews West,Finished,09:00 - 09:59,"ADEN, Hussein (Mr)",04-07-26,HCA Session,5d 21h,49865059,1

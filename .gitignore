@@ -1,0 +1,12 @@
+secrets.toml
+.pythoon-version
+.ckpt
+.pth.tar
+.clinerules
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.env
+.env.*  
