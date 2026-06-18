@@ -22,7 +22,7 @@ REQUIRED_COLUMNS = {
     ROTA_TYPE,
 }
 
-DEFAULT_LIST_SIZE = 15500
+DEFAULT_LIST_SIZE = 13958
 DEFAULT_APPOINTMENTS_PER_1000 = 85
 
 # Editable defaults for England and Wales bank holidays that commonly affect GP access.
@@ -182,7 +182,8 @@ def remove_access_exclusions(df: pd.DataFrame, exclude_hca: bool, exclude_arrs: 
 
 def access_capacity_frame(
     df: pd.DataFrame,
-    list_size: int,
+    previous_list_size: int,
+    current_list_size: int,
     appointments_per_1000: int,
     bank_holidays: set[pd.Timestamp],
     exclude_hca: bool,
@@ -201,14 +202,21 @@ def access_capacity_frame(
     )
     weekly = apply_weekly_arrs_contribution(weekly, weekly_arrs_contribution)
 
-    full_week_target = appointments_per_1000 * (list_size / 1000)
+    weekly["List size"] = weekly["Dataset"].apply(
+        lambda dataset: list_size_for_dataset(dataset, previous_list_size, current_list_size)
+    )
+    full_week_target = appointments_per_1000 * (weekly["List size"] / 1000)
     weekly["Working days"] = weekly["Week start"].apply(
         lambda week: working_days_in_week(week, bank_holidays)
     )
     weekly["Target"] = weekly["Working days"] / 5 * full_week_target
-    weekly["Appointments per 1000"] = weekly["Appointments"] / (list_size / 1000)
+    weekly["Appointments per 1000"] = weekly["Appointments"] / (weekly["List size"] / 1000)
     weekly["Variance to target"] = weekly["Appointments"] - weekly["Target"]
     return weekly
+
+
+def list_size_for_dataset(dataset: str, previous_list_size: int, current_list_size: int) -> int:
+    return current_list_size if dataset == "Current FY" else previous_list_size
 
 
 def apply_weekly_arrs_contribution(
@@ -244,7 +252,8 @@ def like_for_like_summary(
     previous_df: pd.DataFrame,
     current_df: pd.DataFrame,
     as_of_date: pd.Timestamp,
-    list_size: int,
+    previous_list_size: int,
+    current_list_size: int,
     bank_holidays: set[pd.Timestamp],
     exclude_hca: bool,
     exclude_arrs: bool,
@@ -256,6 +265,7 @@ def like_for_like_summary(
 
     for dataset, frame in frames.items():
         start, end = periods[dataset]
+        list_size = list_size_for_dataset(dataset, previous_list_size, current_list_size)
         if frame.empty or APPOINTMENT_DATE not in frame.columns:
             period_frame = pd.DataFrame()
         else:
@@ -284,6 +294,7 @@ def like_for_like_summary(
                 "Period": period_label(start, end),
                 "Start date": start.date(),
                 "End date": end.date(),
+                "List size": list_size,
                 "Total appointments": total_appointments,
                 "Access appointments": access_appointments,
                 "ARRS contribution": arrs_contribution,
@@ -313,7 +324,8 @@ def clinician_contribution_summary(
     previous_df: pd.DataFrame,
     current_df: pd.DataFrame,
     as_of_date: pd.Timestamp,
-    list_size: int,
+    previous_list_size: int,
+    current_list_size: int,
     exclude_hca: bool,
     exclude_arrs: bool,
 ) -> pd.DataFrame:
@@ -324,6 +336,7 @@ def clinician_contribution_summary(
     for dataset, frame in frames.items():
         start, end = periods[dataset]
         elapsed_weeks = max(((end - start).days + 1) / 7, 1 / 7)
+        list_size = list_size_for_dataset(dataset, previous_list_size, current_list_size)
         denominator = (list_size / 1000) * elapsed_weeks
 
         if frame.empty or APPOINTMENT_DATE not in frame.columns:
@@ -353,6 +366,7 @@ def clinician_contribution_summary(
                     "Dataset": dataset,
                     "Clinician": row[CLINICIAN],
                     "Period": period_label(start, end),
+                    "List size": list_size,
                     "Appointments": row["Appointments"],
                     "Elapsed weeks": elapsed_weeks,
                     "Appointments per 1,000/week": contribution,
@@ -460,7 +474,7 @@ def format_delta(value: float) -> str:
 def render_metric_cards(
     like_for_like: pd.DataFrame,
     appointments_per_1000: int,
-    list_size: int,
+    current_list_size: int,
 ) -> None:
     previous_row = like_for_like[like_for_like["Dataset"] == "Previous FY"]
     current_row = like_for_like[like_for_like["Dataset"] == "Current FY"]
@@ -472,7 +486,7 @@ def render_metric_cards(
     current_weeks_elapsed = (
         current_row["Elapsed weeks"].sum() if not current_row.empty else 0
     )
-    current_target = appointments_per_1000 * (list_size / 1000) * current_weeks_elapsed
+    current_target = appointments_per_1000 * (current_list_size / 1000) * current_weeks_elapsed
     current_per_1000_per_week = (
         current_row["Appointments per 1,000/week"].sum() if not current_row.empty else 0
     )
@@ -495,7 +509,7 @@ def render_metric_cards(
         f"{current_per_1000_per_week:,.1f}",
         help=(
             "Current access appointments divided by "
-            f"(({list_size:,} / 1,000) x {current_weeks_elapsed:,.1f} elapsed FY weeks)."
+            f"(({current_list_size:,} / 1,000) x {current_weeks_elapsed:,.1f} elapsed FY weeks)."
         ),
     )
 
@@ -523,7 +537,18 @@ with st.sidebar:
         use_sample_as_current = st.checkbox("Use sample as current", value=False)
 
     st.header("Access settings")
-    list_size = st.number_input("Practice list size", min_value=1, value=DEFAULT_LIST_SIZE, step=50)
+    previous_list_size = st.number_input(
+        "Previous FY list size",
+        min_value=1,
+        value=DEFAULT_LIST_SIZE,
+        step=50,
+    )
+    current_list_size = st.number_input(
+        "Current FY list size",
+        min_value=1,
+        value=DEFAULT_LIST_SIZE,
+        step=50,
+    )
     appointments_per_1000 = st.number_input(
         "Weekly appointments per 1,000 target",
         min_value=1,
@@ -533,9 +558,14 @@ with st.sidebar:
     weekly_arrs_contribution = st.number_input(
         "Weekly ARRS contribution",
         min_value=0.0,
-        value=0.0,
+        value=273.0,
         step=1.0,
-        help="Extra ARRS appointments added to each Current FY week.",
+        help="Extra ARRS appointments that can be added to Current FY totals.",
+    )
+    include_weekly_arrs_contribution = st.toggle(
+        "Include weekly ARRS contribution in totals",
+        value=False,
+        help="When on, the weekly ARRS contribution is added to Current FY total appointment calculations.",
     )
     include_bank_holiday_adjustment = st.checkbox("Adjust target for bank holidays", value=True)
     bank_holiday_text = st.text_area(
@@ -624,14 +654,18 @@ current_filtered_without_date = apply_filters(
 )
 
 bank_holidays = parse_bank_holidays(bank_holiday_text) if include_bank_holiday_adjustment else set()
+effective_weekly_arrs_contribution = (
+    weekly_arrs_contribution if include_weekly_arrs_contribution else 0.0
+)
 weekly_capacity = access_capacity_frame(
     filtered_combined,
-    list_size=list_size,
+    previous_list_size=previous_list_size,
+    current_list_size=current_list_size,
     appointments_per_1000=appointments_per_1000,
     bank_holidays=bank_holidays,
     exclude_hca=exclude_hca,
     exclude_arrs=exclude_arrs,
-    weekly_arrs_contribution=weekly_arrs_contribution,
+    weekly_arrs_contribution=effective_weekly_arrs_contribution,
 )
 previous_weekly = weekly_capacity[weekly_capacity["Dataset"] == "Previous FY"]
 current_weekly = weekly_capacity[weekly_capacity["Dataset"] == "Current FY"]
@@ -639,21 +673,23 @@ like_for_like = like_for_like_summary(
     previous_filtered_without_date,
     current_filtered_without_date,
     pd.Timestamp(like_for_like_as_at),
-    list_size=list_size,
+    previous_list_size=previous_list_size,
+    current_list_size=current_list_size,
     bank_holidays=bank_holidays,
     exclude_hca=exclude_hca,
     exclude_arrs=exclude_arrs,
-    weekly_arrs_contribution=weekly_arrs_contribution,
+    weekly_arrs_contribution=effective_weekly_arrs_contribution,
 )
 clinician_contribution = clinician_contribution_summary(
     previous_filtered_without_date,
     current_filtered_without_date,
     pd.Timestamp(like_for_like_as_at),
-    list_size=list_size,
+    previous_list_size=previous_list_size,
+    current_list_size=current_list_size,
     exclude_hca=exclude_hca,
     exclude_arrs=exclude_arrs,
 )
-weekly_totals = weekly_appointment_totals(filtered_combined, weekly_arrs_contribution)
+weekly_totals = weekly_appointment_totals(filtered_combined, effective_weekly_arrs_contribution)
 appointment_map = pd.DataFrame()
 if not filtered_combined.empty:
     appointment_map = (
@@ -666,10 +702,10 @@ if not filtered_combined.empty:
 projection = projection_summary(
     current_filtered_without_date,
     pd.Timestamp(like_for_like_as_at),
-    weekly_arrs_contribution,
+    effective_weekly_arrs_contribution,
 )
 
-render_metric_cards(like_for_like, appointments_per_1000, list_size)
+render_metric_cards(like_for_like, appointments_per_1000, current_list_size)
 
 tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
     [
@@ -767,10 +803,9 @@ with tab0:
             [
                 "Dataset",
                 "Period",
+                "List size",
                 "Total appointments",
                 "Access appointments",
-                "ARRS contribution",
-                "Adjusted access appointments",
                 "Working days",
                 "Elapsed weeks",
                 "Appointments per 1,000/week",
@@ -779,10 +814,6 @@ with tab0:
             ]
         ].copy()
         display_summary["Elapsed weeks"] = display_summary["Elapsed weeks"].round(2)
-        display_summary["ARRS contribution"] = display_summary["ARRS contribution"].round(1)
-        display_summary["Adjusted access appointments"] = display_summary[
-            "Adjusted access appointments"
-        ].round(1)
         display_summary["Appointments per 1,000/week"] = display_summary[
             "Appointments per 1,000/week"
         ].round(1)
@@ -808,7 +839,7 @@ with tab1:
             color="Dataset",
             barmode="group",
             text="Appointments",
-            hover_data=["Week start", "Base appointments", "ARRS contribution"],
+            hover_data=["Week start"],
             labels={"Financial week": "Financial-year week"},
         )
         weekly_bar.update_traces(texttemplate="%{text:,.0f}", textposition="outside")
@@ -913,7 +944,7 @@ with tab2:
             barmode="group",
             text="Appointments per 1,000/week",
             category_orders={"Clinician": clinician_order},
-            hover_data=["Appointments", "Period", "Share of total"],
+            hover_data=["Appointments", "Period", "List size", "Share of total"],
         )
         clinician_bar.update_traces(texttemplate="%{text:.1f}", textposition="outside")
         clinician_bar.update_layout(
@@ -931,7 +962,7 @@ with tab2:
             y="Appointments per 1,000/week",
             color="Clinician",
             text="Appointments per 1,000/week",
-            hover_data=["Appointments", "Period", "Share of total"],
+            hover_data=["Appointments", "Period", "List size", "Share of total"],
             title="Clinician contribution stacked to total rate",
         )
         stacked_contribution.update_traces(texttemplate="%{text:.1f}", textposition="inside")
@@ -1027,8 +1058,6 @@ with tab4:
             markers=True,
             hover_data=[
                 "Week start",
-                "Base appointments",
-                "ARRS contribution",
                 "Appointments per 1000",
                 "Working days",
                 "Target",
