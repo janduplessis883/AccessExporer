@@ -23,6 +23,7 @@ REQUIRED_COLUMNS = {
 }
 
 DEFAULT_LIST_SIZE = 13958
+CURRENT_YEAR_LIST_SIZE = 13605
 DEFAULT_APPOINTMENTS_PER_1000 = 85
 
 # Editable defaults for England and Wales bank holidays that commonly affect GP access.
@@ -162,19 +163,15 @@ def remove_access_exclusions(df: pd.DataFrame, exclude_hca: bool, exclude_arrs: 
     filtered = df.copy()
 
     if exclude_hca:
+        hca_rota_types = {"hca session", "session"}
         filtered = filtered[
-            ~filtered[ROTA_TYPE].str.lower().str.contains(
-                "hca|health care assistant|healthcare assistant", na=False
-            )
-            & ~filtered[CLINICIAN].str.lower().str.contains(
-                "hca|health care assistant|healthcare assistant", na=False
-            )
+            ~filtered[ROTA_TYPE].str.strip().str.lower().isin(hca_rota_types)
         ]
 
     if exclude_arrs:
+        arrs_rota_types = {"stanhope mews pharmacist arrs"}
         filtered = filtered[
-            ~filtered[ROTA_TYPE].str.lower().str.contains("arrs|pharmacist", na=False)
-            & ~filtered[CLINICIAN].str.lower().str.contains("arrs|pharmacist", na=False)
+            ~filtered[ROTA_TYPE].str.strip().str.lower().isin(arrs_rota_types)
         ]
 
     return filtered
@@ -400,6 +397,8 @@ def projection_summary(
     current_df: pd.DataFrame,
     as_of_date: pd.Timestamp,
     weekly_arrs_contribution: float,
+    current_list_size: int,
+    appointments_per_1000: int,
 ) -> dict[str, float | int | str]:
     current_start = financial_year_start(as_of_date)
     current_end = current_start + pd.DateOffset(years=1) - pd.Timedelta(days=1)
@@ -422,8 +421,14 @@ def projection_summary(
     arrs_to_date = weekly_arrs_contribution * elapsed_weeks
     adjusted_appointments_to_date = appointments_to_date + arrs_to_date
     full_year_weeks = ((current_end - current_start).days + 1) / 7
+    weeks_remaining = max(full_year_weeks - elapsed_weeks, 0)
     average_per_week = adjusted_appointments_to_date / elapsed_weeks if elapsed_weeks else 0
     projected_full_year = average_per_week * full_year_weeks
+    full_year_target = appointments_per_1000 * (current_list_size / 1000) * full_year_weeks
+    appointments_needed = max(full_year_target - adjusted_appointments_to_date, 0)
+    required_per_remaining_week = (
+        appointments_needed / weeks_remaining if weeks_remaining else 0
+    )
 
     return {
         "fy_start": period_label(current_start, as_of_date),
@@ -434,6 +439,10 @@ def projection_summary(
         "elapsed_weeks": elapsed_weeks,
         "average_per_week": average_per_week,
         "full_year_weeks": full_year_weeks,
+        "weeks_remaining": weeks_remaining,
+        "full_year_target": full_year_target,
+        "appointments_needed": appointments_needed,
+        "required_per_remaining_week": required_per_remaining_week,
         "projected_full_year": projected_full_year,
         "remaining_projected": max(projected_full_year - adjusted_appointments_to_date, 0),
     }
@@ -546,7 +555,7 @@ with st.sidebar:
     current_list_size = st.number_input(
         "Current FY list size",
         min_value=1,
-        value=DEFAULT_LIST_SIZE,
+        value=CURRENT_YEAR_LIST_SIZE,
         step=50,
     )
     appointments_per_1000 = st.number_input(
@@ -583,18 +592,34 @@ with st.sidebar:
     )
 
 
-sample_df = pd.read_csv("data/access_example.csv")
+load_progress = st.progress(0, text="Waiting for appointment data...")
+
+load_progress.progress(10, text="Reading uploaded CSV files...")
 previous_raw = load_uploads(previous_files)
 current_raw = load_uploads(current_files)
 
-if previous_raw.empty and use_sample_as_previous:
-    previous_raw = sample_df.assign(**{"Source file": "access_example.csv"})
-if current_raw.empty and use_sample_as_current:
-    current_raw = sample_df.assign(**{"Source file": "access_example.csv"})
+load_progress.progress(35, text="Checking sample data options...")
+if (previous_raw.empty and use_sample_as_previous) or (current_raw.empty and use_sample_as_current):
+    sample_df = pd.read_csv("data/access_example.csv")
+    if previous_raw.empty and use_sample_as_previous:
+        previous_raw = sample_df.assign(**{"Source file": "access_example.csv"})
+    if current_raw.empty and use_sample_as_current:
+        current_raw = sample_df.assign(**{"Source file": "access_example.csv"})
 
+load_progress.progress(60, text="Preparing previous financial year data...")
 previous_df = prepare_data(previous_raw, "Previous FY")
+
+load_progress.progress(80, text="Preparing current financial year data...")
 current_df = prepare_data(current_raw, "Current FY")
+
 combined_df = pd.concat([previous_df, current_df], ignore_index=True)
+load_progress.progress(
+    100,
+    text=(
+        f"Loaded {len(previous_df):,} previous FY rows and "
+        f"{len(current_df):,} current FY rows."
+    ),
+)
 
 if previous_df.empty and current_df.empty:
     st.info("Upload CSV extracts for the previous and current financial years to begin.")
@@ -703,6 +728,8 @@ projection = projection_summary(
     current_filtered_without_date,
     pd.Timestamp(like_for_like_as_at),
     effective_weekly_arrs_contribution,
+    current_list_size,
+    appointments_per_1000,
 )
 
 render_metric_cards(like_for_like, appointments_per_1000, current_list_size)
@@ -870,6 +897,23 @@ with tab1:
         projection_col4.metric(
             "Projected remaining",
             f"{projection['remaining_projected']:,.0f}",
+        )
+
+        target_col1, target_col2, target_col3 = st.columns(3)
+        target_col1.metric(
+            "Weeks left in current FY",
+            f"{projection['weeks_remaining']:,.1f}",
+            help=projection["full_year"],
+        )
+        target_col2.metric(
+            "Appointments still needed",
+            f"{projection['appointments_needed']:,.0f}",
+            help=f"Full-year target: {projection['full_year_target']:,.0f} appointments.",
+        )
+        target_col3.metric(
+            "Needed per remaining week",
+            f"{projection['required_per_remaining_week']:,.1f}",
+            help="Average appointments needed each remaining week to meet 85 per 1,000/week by year end.",
         )
 
         projection_fig = go.Figure(
@@ -1084,8 +1128,6 @@ with tab4:
             st.dataframe(comparison, width="stretch", hide_index=True)
 
 with tab5:
-    chart_col1, chart_col2 = st.columns(2)
-
     if filtered_combined.empty:
         st.warning("No rows remain after the selected filters.")
     else:
@@ -1110,6 +1152,7 @@ with tab5:
             hover_data=["Dataset"],
             title="Appointments by rota type",
         )
+        rota_fig.update_layout(height=560, legend_title="Rota type, Dataset")
         clinician_fig = px.scatter(
             clinician_weekly,
             x="Financial week",
@@ -1120,8 +1163,9 @@ with tab5:
             hover_data=["Dataset"],
             title="Appointments by clinician",
         )
-        chart_col1.plotly_chart(rota_fig, width="stretch")
-        chart_col2.plotly_chart(clinician_fig, width="stretch")
+        clinician_fig.update_layout(height=640, legend_title="Clinician, Dataset")
+        st.plotly_chart(rota_fig, width="stretch")
+        st.plotly_chart(clinician_fig, width="stretch")
 
 with tab6:
     if filtered_combined.empty:
