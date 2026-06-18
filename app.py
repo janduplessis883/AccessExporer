@@ -54,7 +54,7 @@ DEFAULT_BANK_HOLIDAYS = [
 ]
 
 
-st.set_page_config(page_title="GP Access Explorer", layout="wide")
+st.set_page_config(page_title="AccessExplorer", layout="wide")
 
 
 @st.cache_data(show_spinner=False)
@@ -388,6 +388,80 @@ def weekly_appointment_totals(df: pd.DataFrame, weekly_arrs_contribution: float)
     return weekly
 
 
+def clinical_completed_rota_mask(df: pd.DataFrame) -> pd.Series:
+    rota_type = df[ROTA_TYPE].str.strip().str.lower()
+    return rota_type.str.contains(r"\bgp\b", na=False, regex=True) | rota_type.isin(
+        {"nurse", "stanhope mews nurse", "nurse practitioner", "stanhope mews nurse practitioner"}
+    )
+
+
+def clinical_completed_weekday_heatmap(df: pd.DataFrame) -> pd.DataFrame:
+    if df.empty:
+        return pd.DataFrame()
+
+    completed_clinical = df[
+        (df[APPOINTMENT_STATUS].str.strip().str.lower() == "finished")
+        & clinical_completed_rota_mask(df)
+    ].copy()
+    if completed_clinical.empty:
+        return pd.DataFrame()
+
+    weekday_order = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    completed_clinical["Day of week"] = pd.Categorical(
+        completed_clinical[APPOINTMENT_DATE].dt.day_name().str[:3],
+        categories=weekday_order,
+        ordered=True,
+    )
+
+    heatmap = completed_clinical.pivot_table(
+        index=CLINICIAN,
+        columns="Day of week",
+        values=PATIENT_COUNT,
+        aggfunc="sum",
+        fill_value=0,
+        observed=False,
+    ).reindex(columns=weekday_order, fill_value=0)
+
+    clinician_order = heatmap.sum(axis=1).sort_values(ascending=False).index
+    return heatmap.loc[clinician_order]
+
+
+def clinical_completed_week_heatmap(df: pd.DataFrame, financial_week: int) -> pd.DataFrame:
+    if df.empty:
+        return pd.DataFrame()
+
+    completed_clinical = df[
+        (df[APPOINTMENT_STATUS].str.strip().str.lower() == "finished")
+        & clinical_completed_rota_mask(df)
+        & (df["Financial week"] == financial_week)
+    ].copy()
+    if completed_clinical.empty:
+        return pd.DataFrame()
+
+    weekday_order = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    completed_clinical["Day of week"] = pd.Categorical(
+        completed_clinical[APPOINTMENT_DATE].dt.day_name().str[:3],
+        categories=weekday_order,
+        ordered=True,
+    )
+
+    heatmap = completed_clinical.pivot_table(
+        index=CLINICIAN,
+        columns="Day of week",
+        values=PATIENT_COUNT,
+        aggfunc="sum",
+        fill_value=0,
+        observed=False,
+    ).reindex(columns=weekday_order, fill_value=0)
+
+    clinician_order = heatmap.sum(axis=1).sort_values(ascending=False).index
+    heatmap = heatmap.loc[clinician_order]
+    heatmap["Total"] = heatmap.sum(axis=1)
+    totals = heatmap.sum(axis=0).to_frame().T
+    totals.index = ["Total"]
+    return pd.concat([heatmap, totals])
+
+
 def financial_year_weeks_elapsed(as_of_date: pd.Timestamp) -> float:
     start = financial_year_start(as_of_date)
     return max(((as_of_date.normalize() - start).days + 1) / 7, 1 / 7)
@@ -523,7 +597,63 @@ def render_metric_cards(
     )
 
 
-st.title("GP Access Explorer")
+st.markdown(
+    """
+    <div class="access-explorer-logo" role="img" aria-label="AccessExplorer">
+        <div class="access-explorer-mark">A</div>
+        <div class="access-explorer-wordmark">AccessExplorer</div>
+    </div>
+    <style>
+        .access-explorer-logo {
+            display: flex;
+            align-items: center;
+            gap: 1.35rem;
+            margin: 0.35rem 0 0.25rem;
+        }
+
+        .access-explorer-mark {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 4.75rem;
+            height: 4.75rem;
+            border-radius: 1rem;
+            background: #0b2d42;
+            color: #42d5d3;
+            font-size: 2.15rem;
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: 0;
+        }
+
+        .access-explorer-wordmark {
+            color: #0b2d42;
+            font-size: 2.15rem;
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: 0;
+        }
+
+        @media (max-width: 640px) {
+            .access-explorer-logo {
+                gap: 1rem;
+            }
+
+            .access-explorer-mark {
+                width: 3.75rem;
+                height: 3.75rem;
+                border-radius: 0.85rem;
+                font-size: 1.75rem;
+            }
+
+            .access-explorer-wordmark {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 st.caption("Compare appointment access across two financial years using uploaded CSV extracts.")
 
 with st.sidebar:
@@ -734,12 +864,13 @@ projection = projection_summary(
 
 render_metric_cards(like_for_like, appointments_per_1000, current_list_size)
 
-tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(
+tab0, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(
     [
         "Like-for-like",
         "Weekly totals",
         "Clinician contribution",
         "Date clinician map",
+        "Week clinician heatmap",
         "Weekly access",
         "Rota and clinician mix",
         "Status summary",
@@ -1047,6 +1178,93 @@ with tab3:
             horizontal=True,
         )
         map_frame = appointment_map[appointment_map["Dataset"] == selected_map_dataset].copy()
+        heatmap_frame = filtered_combined[
+            filtered_combined["Dataset"] == selected_map_dataset
+        ].copy()
+
+        clinical_weekday_heatmap = clinical_completed_weekday_heatmap(heatmap_frame)
+        st.subheader("Completed GP, nurse, and nurse practitioner appointments by day of week")
+        st.caption(
+            "Counts appointments with status Finished where the rota type is GP, nurse, or nurse practitioner. "
+            "Clinician, rota type, status, and date range filters apply."
+        )
+        if clinical_weekday_heatmap.empty:
+            st.info(
+                "No completed GP, nurse, or nurse practitioner appointment rows remain for the selected dataset and filters."
+            )
+        else:
+            heatmap_fig = px.imshow(
+                clinical_weekday_heatmap,
+                text_auto=True,
+                aspect="auto",
+                color_continuous_scale=[
+                    [0, "#eef8f8"],
+                    [0.35, "#bfe7e5"],
+                    [0.7, "#57c7c2"],
+                    [1, "#0f9c95"],
+                ],
+                labels=dict(x="Day of week", y="Clinician", color="Completed appointments"),
+            )
+            heatmap_fig.update_traces(
+                texttemplate="%{z:,.0f}",
+                hovertemplate=(
+                    "Clinician: %{y}<br>"
+                    "Day: %{x}<br>"
+                    "Completed appointments: %{z:,.0f}<extra></extra>"
+                ),
+            )
+            heatmap_fig.update_layout(
+                height=max(360, 34 * len(clinical_weekday_heatmap.index) + 180),
+                xaxis_title="",
+                yaxis_title="",
+                coloraxis_colorbar_title="Completed",
+                margin=dict(l=10, r=10, t=20, b=20),
+            )
+            heatmap_fig.update_xaxes(side="top")
+            st.plotly_chart(heatmap_fig, width="stretch")
+
+            current_fy_weeks_elapsed = financial_year_weeks_elapsed(
+                pd.Timestamp(like_for_like_as_at)
+            )
+            average_clinical_weekday_heatmap = (
+                clinical_weekday_heatmap / current_fy_weeks_elapsed
+            )
+            st.subheader(
+                "Average completed GP, nurse, and nurse practitioner appointments per week by day of week"
+            )
+            st.caption(
+                "Each cell is the completed GP, nurse, and nurse practitioner appointment total divided by "
+                f"{current_fy_weeks_elapsed:,.1f} elapsed weeks in the current financial year."
+            )
+            average_heatmap_fig = px.imshow(
+                average_clinical_weekday_heatmap,
+                text_auto=".1f",
+                aspect="auto",
+                color_continuous_scale=[
+                    [0, "#eef8f8"],
+                    [0.35, "#bfe7e5"],
+                    [0.7, "#57c7c2"],
+                    [1, "#0f9c95"],
+                ],
+                labels=dict(x="Day of week", y="Clinician", color="Average per week"),
+            )
+            average_heatmap_fig.update_traces(
+                texttemplate="%{z:,.1f}",
+                hovertemplate=(
+                    "Clinician: %{y}<br>"
+                    "Day: %{x}<br>"
+                    "Average completed appointments/week: %{z:,.1f}<extra></extra>"
+                ),
+            )
+            average_heatmap_fig.update_layout(
+                height=max(360, 34 * len(average_clinical_weekday_heatmap.index) + 180),
+                xaxis_title="",
+                yaxis_title="",
+                coloraxis_colorbar_title="Avg/week",
+                margin=dict(l=10, r=10, t=20, b=20),
+            )
+            average_heatmap_fig.update_xaxes(side="top")
+            st.plotly_chart(average_heatmap_fig, width="stretch")
 
         clinician_order = (
             map_frame.groupby(CLINICIAN)["Appointments"]
@@ -1086,6 +1304,81 @@ with tab3:
         st.plotly_chart(map_fig, width="stretch")
 
 with tab4:
+    st.subheader("Completed GP, nurse, and nurse practitioner appointments for selected financial week")
+    st.caption(
+        "Select a financial-year week to see finished GP, nurse, and nurse practitioner appointment counts by clinician and day. "
+        "The final column shows each clinician's weekly total; the final row shows daily totals."
+    )
+
+    if filtered_combined.empty:
+        st.warning("No rows remain after the selected filters.")
+    else:
+        weekly_dataset_options = filtered_combined["Dataset"].dropna().unique().tolist()
+        default_weekly_dataset_index = (
+            weekly_dataset_options.index("Current FY")
+            if "Current FY" in weekly_dataset_options
+            else 0
+        )
+        selected_weekly_dataset = st.radio(
+            "Heatmap dataset",
+            weekly_dataset_options,
+            index=default_weekly_dataset_index,
+            horizontal=True,
+            key="weekly_heatmap_dataset",
+        )
+        selected_financial_week = st.slider(
+            "Financial-year week",
+            min_value=1,
+            max_value=52,
+            value=1,
+            step=1,
+        )
+
+        weekly_heatmap_frame = filtered_combined[
+            filtered_combined["Dataset"] == selected_weekly_dataset
+        ].copy()
+        selected_week_heatmap = clinical_completed_week_heatmap(
+            weekly_heatmap_frame,
+            selected_financial_week,
+        )
+
+        if selected_week_heatmap.empty:
+            st.info(
+                "No completed GP, nurse, or nurse practitioner appointment rows remain for the selected dataset, week, and filters."
+            )
+        else:
+            week_heatmap_fig = px.imshow(
+                selected_week_heatmap,
+                text_auto=True,
+                aspect="auto",
+                color_continuous_scale=[
+                    [0, "#eef8f8"],
+                    [0.35, "#bfe7e5"],
+                    [0.7, "#57c7c2"],
+                    [1, "#0f9c95"],
+                ],
+                labels=dict(x="Day of week", y="Clinician", color="Completed appointments"),
+            )
+            week_heatmap_fig.update_traces(
+                texttemplate="%{z:,.0f}",
+                hovertemplate=(
+                    "Clinician: %{y}<br>"
+                    "Column: %{x}<br>"
+                    "Completed appointments: %{z:,.0f}<extra></extra>"
+                ),
+            )
+            week_heatmap_fig.update_layout(
+                height=max(380, 34 * len(selected_week_heatmap.index) + 190),
+                xaxis_title="",
+                yaxis_title="",
+                coloraxis_colorbar_title="Completed",
+                margin=dict(l=10, r=10, t=20, b=20),
+            )
+            week_heatmap_fig.update_xaxes(side="top")
+            st.plotly_chart(week_heatmap_fig, width="stretch")
+            st.dataframe(selected_week_heatmap, width="stretch")
+
+with tab5:
     st.subheader("Weekly appointments compared with access target")
     st.caption(
         "The target is adjusted by list size and, when enabled, reduced for bank holidays in that week."
@@ -1127,7 +1420,7 @@ with tab4:
             comparison["Current minus previous"] = comparison["Current FY"] - comparison["Previous FY"]
             st.dataframe(comparison, width="stretch", hide_index=True)
 
-with tab5:
+with tab6:
     if filtered_combined.empty:
         st.warning("No rows remain after the selected filters.")
     else:
@@ -1167,7 +1460,7 @@ with tab5:
         st.plotly_chart(rota_fig, width="stretch")
         st.plotly_chart(clinician_fig, width="stretch")
 
-with tab6:
+with tab7:
     if filtered_combined.empty:
         st.warning("No rows remain after the selected filters.")
     else:
@@ -1188,7 +1481,7 @@ with tab6:
         st.plotly_chart(fig, width="stretch")
         st.dataframe(status_summary, width="stretch", hide_index=True)
 
-with tab7:
+with tab8:
     st.subheader("Filtered appointment rows")
     st.dataframe(filtered_combined, width="stretch", hide_index=True)
     csv = filtered_combined.to_csv(index=False).encode("utf-8")

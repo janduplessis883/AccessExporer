@@ -1,0 +1,10 @@
+{
+  "publishes": {
+    "silken-nebula-ddjr": {
+      "siteUrl": "https://silken-nebula-ddjr.here.now/",
+      "claimToken": "34c89a77fcdd9423efac40c6dd6fa054dfa4cbcd9a40e6c90edc13c8be9da2ae",
+      "claimUrl": "https://here.now/claim?slug=silken-nebula-ddjr&token=34c89a77fcdd9423efac40c6dd6fa054dfa4cbcd9a40e6c90edc13c8be9da2ae",
+      "expiresAt": "2026-06-19T03:37:18.563Z"
+    }
+  }
+}
